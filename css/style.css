@@ -1,6 +1,11 @@
 .desna {
   text-align:right;
 }
+.resize_panel {
+    width: 300px;
+    height: auto;
+}
+
 /*! * {
   border-style: solid;
   border-width: 1px;
