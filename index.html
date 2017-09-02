@@ -20,7 +20,7 @@
         <a href="#">Kaj nudimo</a>
         <a href="#">Naroči se</a>
         <a href="#">FAQ</a>
-        <a href="#">O nas</a>
+        <a href="#" data-toggle="modal" data-target="#myModal">O nas</a>
         <input type="text" name="" value="išči">
 
 
@@ -105,7 +105,8 @@
     </div>
     <h1>Naroči se</h1>
     <div class="row">
-      <div class="col-md-6">vnosni obrazec
+      <div class="col-md-6">
+        <h3>Vnesi podatke</h3>
         <form class="form-horizontal">
           <div class="form-group">
             <label class="control-label col-sm-2" for="email"></label>
@@ -134,7 +135,7 @@
           <div class="form-group">
             <div class="col-sm-offset-2 col-sm-10">
               <div class="checkbox">
-                <label><input type="checkbox"> Najbolši frizer .... </label>
+                <label><input type="checkbox"> Najbolši frizer je itak Mirko.</label>
               </div>
             </div>
           </div>
@@ -145,7 +146,8 @@
           </div>
         </form>
       </div>
-      <div class="col-md-6">urnik
+      <div class="col-md-6">
+        <h3>Urnik</h3>
         <table class="table table-bordered">
           <thead>
             <tr>
@@ -203,9 +205,51 @@
       fh fghg fghf ggydffysdfg df dfg dfhdfh dfgsd ydg gf sdfg dsfgdfgdsfgsdfgdfgsdgdsd s</p>
 
       <div class="row">
-        <div class="col-md-4">kontakt </div>
-        <div class="col-md-4">Tu bo slika </div>
-        <div class="col-md-4">Navigacija  </div>
+        <div class="col-md-4">kontakt
+          <h3>Kontakt</h3>
+          <p>Frizer: Mirko</p>
+          <p>Davčna št:2222222</p>
+          <p>Frizerska ulica 7, 3000 Celje</p>
+          <p>TEl.: 03/11113455</p>
+          <p>Emaail: frizer.mirko@f-mirko.com</p>
+        </div>
+        <div class="col-md-4">
+          <img src="pictures/slide3.jpg" alt="frizer">
+        </div>
+
+        <div class="col-md-4">
+          <h3>Navigacija</h3>
+          <a href="#">Kaj nudimo?</a><br>
+          <a href="#">Naroči se</a><br>
+          <a href="#">Pogosta vprašanja</a><br>
+
+
+<!-- Trigger the modal with a link -->
+
+<a href="#" data-toggle="modal" data-target="#myModal">O nas</a>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+        <p>Some text in the modal.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+        
 
       </div>
     </div>
